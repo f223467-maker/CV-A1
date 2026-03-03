@@ -1,1 +1,57 @@
+Library Rules (Very Important)
 
+Allowed:
+
+NumPy
+
+Matplotlib
+
+Allowed ONLY for comparison:
+
+OpenCV
+
+scikit-image
+
+Not allowed:
+
+Using built-in functions to directly solve task
+
+Example:
+❌ cv2.equalizeHist (for core)
+❌ cv2.Canny (for core)
+
+You can only use them to compare results.
+
+✅ 3️⃣ Code Quality Requirements
+
+Your code must:
+
+✔ Have comments explaining logic
+✔ Follow clean structure
+✔ Use modular functions
+✔ Handle edge cases
+✔ Be organized
+
+✅ 4️⃣ GitHub & Submission Requirements
+
+You must:
+
+✔ Create GitHub repository
+✔ Add TA as collaborator:
+
+mariamffatima
+
+✔ Upload:
+
+.ipynb file
+
+report.pdf
+
+requirements.txt
+
+test_images folder
+
+README.md
+
+✔ Add GitHub link inside report
+✔ Submit Report + .ipynb on Google Classroom
